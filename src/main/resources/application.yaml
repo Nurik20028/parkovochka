@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: parkovka
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v1/api-docs
