@@ -1,6 +1,11 @@
 spring:
   application:
     name: parkovka
+  datasource:
+    url: jdbc:postgresql://localhost:5433/parkovka
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
 
 springdoc:
   swagger-ui:
